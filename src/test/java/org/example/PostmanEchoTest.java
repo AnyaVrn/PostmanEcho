@@ -8,7 +8,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 public class PostmanEchoTest {
     @Test
-    public void shouldPostRawTextTest() {
+    public void shouldReturnDate() {
 
                 .baseUri("https://postman-echo.com")
                 .body("some data")
