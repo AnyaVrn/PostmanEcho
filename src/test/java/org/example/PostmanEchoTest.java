@@ -8,7 +8,8 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class PostmanEchoTest {
     @Test
-    public void shouldReturnDate() {
+    void shouldReturnDate() {
+        given()
 
                 .baseUri("https://postman-echo.com")
                 .body("some data")
